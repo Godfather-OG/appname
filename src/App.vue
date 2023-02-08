@@ -16,7 +16,7 @@
           >
             <v-card class="mx-auto"
     max-width="500">
-              <v-img :src="character.image" aspect-ratio="1.5"></v-img>
+              <v-img :src="character.image" aspect-ratio="1.0"></v-img>
               <v-card-title>{{ character.name }}</v-card-title>
               <v-card-subtitle>{{ character.status }}</v-card-subtitle>
               <v-card-text>
